@@ -1,9 +1,27 @@
 // كود مانع جحفلة .
 const Discord = require("discord.js");
 const client = new Discord.Client();
+
+
+
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+    console.log('----------------');
+    console.log(`✨ Id: Nizx`);
+    console.log(`✨ Prefix: Soon`);
+    console.log(`✨ Servers: 1`);
+    console.log(`✨ Members: 1000`);
+    console.log(`✨ Channels: Limtit`);
+    console.log('----------------');
+    console.log(`Logged in as `);
+    client.user.setGame(`SPT Server Security.🔒   `, "http://twitch.tv/Streammingg")
+    client.user.setStatus("dnd")
 });
+
+
+
+
+
+
 /*جميع الحقوق محفوظهه لريبل ولسيرفر كودز
 رآح يرسل للأونر تحذير + م يتطلب ملفات سويته لكم داتا مؤقت
 سو روم بأسم log 
