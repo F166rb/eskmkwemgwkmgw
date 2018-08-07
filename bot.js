@@ -13,7 +13,7 @@ client.on('ready', () => {
     console.log(`✨ Channels: Limtit`);
     console.log('----------------');
     console.log(`Logged in as `);
-    client.user.setGame(`SPT Server Security.🔒   `, "http://twitch.tv/Streammingg")
+    client.user.setGame(`⠀⠀⠀⠀⠀⠀SPT Server Security.🔒   `, "http://twitch.tv/Streammingg")
     client.user.setStatus("dnd")
 });
 
