@@ -3,6 +3,20 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
+  client.on('message' , function (message){
+      var token = 'NDc2Mjg2NTczOTM2MjQ2Nzg1.DlO4OQ.lHNLfvgI0gBpr7Bvu4BS0W8NwPw'; // التوكن هنا بس
+      if(message.content === 'res') {
+if(message.author.id !== '355101114024329227') return message.reply('**الامر خاص بـ صاحب البوت وشكرا**');
+          client.destroy();
+          client.login(token) // لا تغيرها
+var time = 7200000;
+client.setInterval(function() {
+    client.destroy();
+    client.login(token) // لا تغيرها
+  }, time);
+}
+})
+
 
 client.on('ready', () => {
     console.log('----------------');
